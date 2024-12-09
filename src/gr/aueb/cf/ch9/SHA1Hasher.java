@@ -15,7 +15,7 @@ public class SHA1Hasher {
         // Generate SHA-1 hash
         try {
             String sha1Hash = generateSHA1Hash(input);
-            System.out.println("SHA-1 Hash: " + sha1Hash);
+            System.out.println("SHA-1 Hash is: " + sha1Hash);
         } catch (NoSuchAlgorithmException e) {
             System.err.println("SHA-1 algorithm not found!");
         }
